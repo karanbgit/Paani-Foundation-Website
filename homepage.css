@@ -1,0 +1,352 @@
+body{
+  font-family: "Kanit", sans-serif;
+
+
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.kanit-semi {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kanit{
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+	font-size:19px;
+  font-style: normal;
+}
+.navigation{
+  	box-shadow: 0 12px 18px 0 rgba(0,0,0,0.3);
+	position:sticky;
+	top:0;
+	z-index:14;
+}
+.video{
+	height:100vh;
+}
+.video video{
+	width:98.5%;
+	height:auto;
+	position:absolute;
+}
+.head{
+	position:relative;
+	top:14rem;
+}
+.head h1{
+	font-size:60px;
+	font-weight: bold;
+}	
+.btn2 {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn2::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.btn2::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+}
+
+.btn2:hover::before, .btn2:hover::after {
+  	transform: scale(0)
+}
+
+.btn2:hover {
+  	box-shadow: inset 0px 0px 25px #1479EA;
+}
+.btn1 {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #ea7414;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn1::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.btn1::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+}
+
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.name {
+	text-align: center;
+	color: green;
+}
+
+.btn1:hover::before, .btn1:hover::after {
+  transform: scale(0)
+}
+
+.btn1:hover {
+  box-shadow: inset 0px 0px 25px #ea9414;
+}
+
+
+.content{
+	margin-top: 23vh;
+	
+}
+.headcontent{
+	text-align:justify;
+}
+.headcontent p{
+	font-size:19px;
+}
+hr{
+  font-weight: bolder;
+}
+.amirsays{
+	line-height:1.7;
+}
+.amirsays a:hover{
+	text-decoration:none;
+	font-size:25px;
+
+}
+.amirsays .say{
+	font-size:20px;	
+	text-align:justify;
+}
+.paaniway{
+}
+
+
+.waterbtn {
+  width: 11em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #ea7414;
+  outline: none;
+  background-color: transparent;
+  backdrop-filter:blur(30px);
+  color: black;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.waterbtn::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.waterbtn::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+}
+
+.waterbtn:hover::before, .waterbtn:hover::after {
+  transform: scale(0)
+}
+
+.waterbtn:hover {
+  box-shadow: inset 0px 0px 25px #ea9414;
+}
+
+
+.economicbtn {
+  width: 11em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  backdrop-filter:blur(30px);
+  color: black;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.economicbtn::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.economicbtn::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+}
+
+.economicbtn:hover::before, .economicbtn:hover::after {
+  	transform: scale(0)
+}
+
+.economicbtn:hover {
+  	box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+.platforms{
+	margin-top: 11vh;
+}
+.platforms h2{
+	text-align:center;
+}
+
+.flex .flex-div{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.contact a{
+	text-decoration:none;
+	font-size:20px;
+}
+.form .image{
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.contactbtn button {
+  font-family: inherit;
+  font-size: 18px;
+  background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+  color: white;
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s;
+}
+
+button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+  transition: all 0.3s;
+}
+
+button .svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0.5em;
+  transition: all 0.3s;
+}
+
+button:hover .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:hover svg {
+  transform: rotate(45deg);
+}
+
+
+.footercontent a:hover{
+	text-decoration:underline;
+}
+
+

@@ -1,0 +1,157 @@
+body{
+	margin:0;
+	padding:0;
+}
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.kanit-semi {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.kanit{
+	font-size:19px;
+}
+.navigation{
+  	box-shadow: 0 12px 18px 0 rgba(0,0,0,0.3);
+	position:sticky;
+	top:0;
+	z-index:14;
+}
+.textinimage h1{
+	font-size:80px;
+}
+.work{
+	background-image:url("images/get_involved.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;	
+	height:60vh;
+	width:100%;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.name {
+	text-align: center;
+	color: green;
+}
+
+/* From Uiverse.io by Deri-Kurniawan */ 
+.button {
+  position: relative;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #007bff, #00bfff);
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.button:hover::before {
+  right: 0;
+}
+
+
+/* From Uiverse.io by Allyhere */ 
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
+
+
+
+.platforms{
+	margin-top: 7vh;
+}
+.platforms h2{
+	text-align:center;
+}
+.story a{
+	text-decoration:none;
+
+}
+.story a:hover{
+	text-decoration:underline;
+}
+
+
+.footercontent a:hover{
+	text-decoration:underline;
+}

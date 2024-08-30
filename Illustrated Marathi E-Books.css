@@ -1,0 +1,90 @@
+body{
+	margin:0;
+	padding:0;
+}
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.kanit-semi {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.kanit{
+	font-size:19px;
+}
+.navigation{
+  	box-shadow: 0 12px 18px 0 rgba(0,0,0,0.3);
+	position:sticky;
+	top:0;
+	z-index:14;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+
+
+.platforms{
+	margin-top: 7vh;
+}
+.platforms h2{
+	text-align:center;
+}
+
+
+
+
+.span {
+  border: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+}
+
+
+/* From Uiverse.io by megasteve19 */ 
+.E-Book {
+  border: none;
+  background-color: #003C8B;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transform: translate(1) translate(0, 0);
+  transition: transform 225ms, box-shadow 225ms;
+}
+
+.E-Book:hover {
+  transform: scale(1.05) translate(0, -0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+.E-Book:active {
+  transform: scale(1) translate(0, 0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.footercontent a:hover{
+	text-decoration:underline;
+}
