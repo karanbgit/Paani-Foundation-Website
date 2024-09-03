@@ -35,7 +35,7 @@ body{
 	font-size:80px;
 }
 .supporter{
-	background-image:url("images/Our-Supporters.jpg");
+	background-image:url("../images/Our-Supporters.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:80vh;

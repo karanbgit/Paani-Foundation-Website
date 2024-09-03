@@ -27,7 +27,7 @@ body{
 	font-size:80px;
 }
 .work{
-	background-image:url("images/ourworkbg.jpg");
+	background-image:url("../images/ourworkbg.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:60vh;

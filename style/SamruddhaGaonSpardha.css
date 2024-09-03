@@ -35,7 +35,7 @@ body{
 	font-size:60px;
 }
 .work{
-	background-image:url("images/Spardhabgimage.JPG");
+	background-image:url("../images/Spardhabgimage.JPG");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:90vh;

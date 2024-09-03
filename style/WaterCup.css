@@ -35,7 +35,7 @@ body{
 	font-size:80px;
 }
 .work{
-	background-image:url("images/our mission.JPG");
+	background-image:url("../images/waterCupbgImage.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:100vh;
@@ -65,8 +65,41 @@ body{
 }
 .wedo h2{
 	text-align:center;
-
 }
+
+.size{
+	font-size:65px;
+}
+
+
+
+
+/* From Uiverse.io by megasteve19 */ 
+.change {
+  border: none;
+  background-color: #003C8B;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transform: translate(1) translate(0, 0);
+  transition: transform 225ms, box-shadow 225ms;
+}
+
+.change:hover {
+  transform: scale(1.05) translate(0, -0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+.change:active {
+  transform: scale(1) translate(0, 0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
 
 
 .footercontent a:hover{

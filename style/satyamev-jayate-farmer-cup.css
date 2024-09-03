@@ -35,7 +35,7 @@ body{
 	font-size:80px;
 }
 .work{
-	background-image:url("images/farmercup.jpeg");
+	background-image:url("../images/farmercup.jpeg");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:80vh;
@@ -162,7 +162,7 @@ body{
 }
 
 .first-flip-card {
-	background-image:url('images/fieldtranning.PNG');
+	background-image:url('../images/fieldtranning.PNG');
 	background-repeat:no-repeat;
 	background-size:cover;	
 	width:100%;
@@ -170,7 +170,7 @@ body{
 }
 
 .second-flip-card {
-	background-image:url('images/digital farming image.PNG');
+	background-image:url('../images/digital farming image.PNG');
 	background-repeat:no-repeat;
 	background-size:cover;	
 	width:100%;

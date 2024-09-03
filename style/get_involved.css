@@ -35,7 +35,7 @@ body{
 	font-size:80px;
 }
 .work{
-	background-image:url("images/get_involved.jpg");
+	background-image:url("../images/get_involved.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;	
 	height:60vh;
